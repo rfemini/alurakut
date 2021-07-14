@@ -18,10 +18,10 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
   }
   ul li a {
     display: inline-block;
-    height: 102px;
+    height: 90px;
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 80px;
     span {
       color: #FFFFFF;
       font-size: 10px;

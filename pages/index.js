@@ -7,7 +7,7 @@ import { ProfileRelationsBoxWrapper } from '../src/components/ProfileRelations';
 function ProfileSidebar(propriedades) {
   return (
     <Box as="aside">
-      <img src={`https://github.com/${propriedades.githubUser}.png`} style={{ borderRadius: '8px' }} />
+      <img src={`https://github.com/${propriedades.githubUser}.png`} style={{ borderRadius: '80px' }} />
       <hr />
 
       <p>
