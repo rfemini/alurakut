@@ -1,0 +1,50 @@
+Aula 2 13/07/21
+
+Usei o comando slice para limitar a 6 itens mostrados na Box de comunidades.
+
+ {comunidades.slice(0,6).map((itemAtual) => {
+
+
+
+
+Aula 3 14/07
+
+Conteúdo detalhado desta aula
+
+Entender um pouco melhor sobre como funciona o protocolo HTTP;
+Consumir API do Github usando fetch para preencher os nossos amigos;
+Conhecendo Promises e como lidar com o JSON;
+Usar o hook useEffect para lidar com código assíncrono;
+Conhecer o DatoCMS, o sistema de gestão de conteúdo que iremos utilizar na nossa aplicação;
+Criar os modelos dos conteúdos que iremos gerenciar no DatoCMS;
+Criar nossas comunidades pela interface do DatoCMS.
+
+Persistencia de Dados com CMS (Dato CMS datocms.com).
+
+API para persistencia de dados com DatoCMS.
+
+https://api.github.com/users/rfemini
+
+Comando fetch que vai buscar dados no servidor.
+
+fetch('http://api.github.com/users/peas/followers')
+
+Aula 4 15/07/21
+
+Foi colocado mais um campo, chamado Slug no DatoCMS (campo criado como Creator Slug - OK)
+
+AJAX significa Asynchronous JavaScript e XML.
+Hoje se pega mais via JSON do que XML....
+
+Pegar o seu token para acesso ao dados (somente leitura / ou leitura e gravação.
+Read-only API token: 2b34c1e424666b75dbe03968e52f9f
+
+Full-access API token: f81b1d548cca9891842fe618e287e5
+
+Instalar o Dato CMS Client.
+
+Pegar Model ID da Community (Model ID: 968631)
+
+
+
+
