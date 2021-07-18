@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: sans-serif;
     background-color: #FFD700;
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/11/17/27/drip-1972411_960_720.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
   
   #__next {
